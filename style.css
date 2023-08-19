@@ -1,0 +1,454 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* > button {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+* > a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#BBD051, #9DC037, #88B620, #77AD08 );
+    color: white;
+    position: relative;
+}
+
+.caret {
+    padding-left: 5px;
+    color: #BAD47E;
+    font-size: 14px;
+}
+
+.menu .menu-btn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: white;
+    padding: 15px 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 10px;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    margin: 0 20px;
+}
+
+input {
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+}
+
+.search-id {
+    background-color: #fff;
+}
+
+#header-search-btn {
+    height: 30px;
+    background-color: #008CBA;
+    border: none;
+    outline: none;
+    width: 100px;
+    color: #fff;
+}
+
+#header-search-btn:hover {
+    background-color: #08324C;
+}
+
+.help-info {
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sub-menu {
+    padding: auto;
+    justify-content: center;
+    position: absolute;
+    width: 150px;
+    display: none;
+    z-index:1;
+}
+
+.sub-menu-list {
+    position: absolute;
+}
+
+.sub-menu-maps {
+    position: absolute;
+    left: 40%;
+    width: 150px;
+}
+
+.sub-menu-help {
+    position: absolute;
+    width: 200px;
+}
+
+.sub-menu a {
+    padding: 10px;
+    background-image: linear-gradient(#BBD051, #9DC037, #88B620, #77AD08);
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    display: block;
+}
+.menu:hover .sub-menu {
+    display: block;
+}
+
+h1 {
+    font-size: 42px;
+    margin: 10px 150px;
+}
+
+.main-search {
+    border: 2px solid #FFA500;
+    background-color: #FFCC99;
+    border-radius: 10px;
+    margin: 30px 150px;
+}
+
+.search-for-id {
+    margin: 10px 30px;
+}
+
+.search-for-id > input {
+    width: 85%;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.search-for-id > button {
+    width: 12%;
+    margin-left: 2%;
+    height: 50px;
+    outline: none;
+    background-color: #008CBA;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.search-for-id > button:hover {
+    background-color: #08324C;
+}
+
+.geolocate-wrap {
+    text-align: center;
+    margin: 30px 0 50px;
+}
+
+.geolocate-wrap > p {
+    font-size: 20px;
+}
+
+.geolocate-wrap button {
+    margin-left: 20px;
+    background-color: #008CBA;
+    font-size: 20px;
+    padding: 20px 30px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.geolocate-wrap button:hover   {
+    background-color: #08324C;
+}
+
+.booking {
+    margin: 30px 250px;
+}
+
+.booking-header {
+    display: flex;;
+}
+
+#start-date, #end-date {
+    width: 70px;
+}
+
+.booking-title {
+    color:  #083885;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.booking-title span {
+    color: #00A0E4;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.booking-header-right {
+    background-color: #FFC44A;
+    padding: 3px 5px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#booking-search {
+    padding: 6px 10px;
+    border: 2px solid #fff;
+    background-color: #00A0E4;
+    outline: none;
+    color: #fff;
+}
+
+#booking-search:hover {
+    background-color: #003580;
+}
+
+.users {
+    margin-right: 4px;
+}
+
+#guest {
+    margin-left: 70px;
+    padding: 9px 11px;
+    border: none;
+    background-color: inherit;
+    outline: none;
+    box-shadow: 1px 1px 20px -5px #999 ;
+    border-radius:5px 0;
+    color: #bbb;
+}
+
+#guest:hover {
+    color: black;
+    box-shadow: 1px 1px 20px -5px black ;
+}
+
+.inputs {
+    background-color: #fff;
+    margin: 0 6px;
+    color: #008CBA;
+    align-items: center;
+}
+
+.cal {
+    margin-right: 9px;
+}
+
+.booking-places {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+
+.booking-view > img {
+    position: relative;
+    height: 230px;
+    width: 185px;
+    border-radius: 5px;
+}
+
+.nested-loc {
+    position: absolute;
+    z-index: 999;
+    background-color: rgb(57,72,85 ,0.8);
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+.booking-places .flag-logo{
+    position: absolute;
+    width: 15px;
+    height: 11px;
+    margin-top: 4px;
+}
+
+.nested-loc h3 img {
+    margin-left: 3px;
+    top: 7px;
+}
+
+.loc-list {
+    height: 230px;
+    width: 185px;
+    background-color: #EDF1F6;
+    border-radius: 5px;
+}
+
+.loc-list p {
+    list-style: none;
+    padding: 6px 0;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #4970A6;
+}
+
+.p-wrap:hover {
+    background-color: #fff;
+}
+
+#first {
+    margin-top: 0;
+}
+
+.loc-list p .flag-logo {
+    margin-left: -25px;
+}
+
+#discover {
+    margin-top: 5px;
+    width: 100%;
+    color: #fff;
+    background-color: #00A0E4;
+    border: 2px solid #fff;
+    font-size: 16px;
+    padding: 3px 0;
+    outline: 5px;
+    box-shadow: 2px 5px 5px 0 #999;
+    border-radius: 5px;
+}
+
+#discover:hover {
+    background-color: #003580;
+}
+
+h2 {
+    margin: 40px 150px;
+    font-size: 40px;
+}
+
+.popular-id {
+    width: 75%;
+    margin: 40px 150px 0;
+}
+
+.id {
+    margin: 0 7px;
+    display: inline-block;
+    color: #008CBA;
+    background-color: #ddd;
+    padding: 3px ;
+}
+
+.popular-id .lg-ft {
+    margin: 1px 7px;
+    font-size: 36px;
+}
+
+.third {
+    background-color: #f2f2f2;
+    margin: 2px 150px;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.third > p {
+    margin: 20px 0;
+}
+
+.third .discover {
+    background-color: white;
+    padding: 5px;
+    position: relative;
+}
+
+.third .discover .discover-head {
+    padding: 15px;
+    background-color: #f2f2f2;
+    text-align: left;
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+}
+
+.third .discover ul li {
+    list-style: none;
+    text-align: left;
+    padding: 15px;
+    border-left: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+
+.third .discover ul li a {
+    color: black;
+}
+
+.third .discover ul li:hover a {
+    text-decoration: underline;
+}
+
+.third .discover ul li:hover + hr {
+    border-top: 2px solid #ddd;
+}
+
+.angle-right {
+    position: absolute;
+    right: 0;
+    height: 20px;
+    width: 30px;
+    color:  #aaa;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+#disc-student {
+    border-radius: 0px 0px 0px 5px;
+    border-bottom: 3px solid #ddd;
+}
+
+.p-bold {
+    font-weight: bold;
+}
+
+.top-footer {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-group {
+    margin: 25px 0 45px;
+}
+
+.footer-group a, .footer-group p {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.footer-group a:hover {
+    text-decoration: underline;
+}
+
+.base-footer {
+    text-align: center;
+    margin: 10px 0 20px;
+}

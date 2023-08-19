@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c190c31fe9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left-nav">
+                <i class="fa fa-home home" aria-hidden="true"></i>
+                <div class="search-id">
+                    <input type="text" name="" id="" placeholder="Student ID or Student name" />
+                    <button id="header-search-btn">Search</button>
+                </div>
+                <div class="menu">
+                    <button class="menu-btn">Student ID Lists
+                        <i class="fa fa-caret-down caret" aria-hidden="true"></i></button>
+                    <div class="sub-menu sub-menu-list">
+                        <a href="#">By Country</a>
+                        <a href="#">By Introduction Date</a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <button class="menu-btn">Student ID maps
+                        <i class="fa fa-caret-down caret" aria-hidden="true"></i></button>
+                    <div class="sub-menu sub-menu-maps">
+                        <a href="#">User Type</a>
+                        <a href="#">User Category</a>
+                        <a href="#">Council Tax Band</a>
+                    </div>
+                </div>
+                <a href="" class="link">Nearest Student </a>
+                <a href="" class="link">Student Scholarship</a>
+            </div>
+            <span>
+                <div class="menu">
+                    <button class="menu-btn">Help and Information
+                        <i class="fa fa-caret-down caret" aria-hidden="true"></i></button>
+                    <div class="sub-menu sub-menu-help">
+                        <a href="#">About this website</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+            </span>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Check My Student ID</h1>
+        <div class="main-search">
+            <div class="search-for-id">
+                <input type="text" name="" id="" placeholder="Search for a studnet id or student name">
+                <button id="main-search-btn">Search</button>
+            </div>
+            <div class="geolocate-wrap">
+                <p>Or use your device's geolocation service to find Student ID near you <button
+                        id="main-locate-btn">Locate Me!</button></p>
+
+            </div>
+        </div>
+
+        <div class="booking">
+            <div class="booking-header">
+                <p id="booking" class="booking-title">Booking<span>.com</span></p>
+                <div class="booking-header-right">
+                    <input type="text" name="" id="city" placeholder="e.g., city, region, province">
+                    <div class="inputs">
+                        <span>
+                            <input type="text" name="" id="start-date"><i class="fa fa-calendar cal"
+                                aria-hidden="true"></i>|<input type="text" name="" id="end-date"><i
+                                class="fa fa-calendar cal" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <button id="booking-search">Search</button>
+                    <button id="guest"><i class="fa fa-users users" aria-hidden="true"></i>Guests</button>
+                </div>
+            </div>
+            <div class="booking-places">
+                <div class="booking-view">
+                    <div class="nested-loc">
+                        <h3>Trondheim <img src="images/norway.png" alt="" class="flag-logo"></h3>
+                        <p>45 properties</p>
+                    </div>
+                    <img src="images/trondheim.jpeg" alt="">
+                </div>
+                <div class="booking-view">
+                    <div class="nested-loc">
+                        <h3>Sixt <img src="images/france.png" alt="" class="flag-logo"></h3>
+                        <p>21 properties</p>
+                    </div>
+                    <img src="images/sixt.jpg" alt="">
+                </div>
+                <div class="booking-view">
+                    <div class="nested-loc">
+                        <h3>Bransgore <img src="images/uk.png" alt="" class="flag-logo"></h3>
+                        <p>4 properties</p>
+                    </div>
+                    <img src="images/bransgore.jpeg" alt="">
+                </div>
+                <div class="loc-list">
+                    <div class="p-wrap">
+                        <p id="first"><img src="images/trondheim.jpeg" alt="" class="flag-logo"> Trondheim</p>
+                    </div>
+                    <div class="p-wrap">
+                        <p><img src="images/france.png" alt="" class="flag-logo"> Sixt</p>
+                    </div>
+                    <div class="p-wrap">
+                        <p><img src="images/uk.png" alt="" class="flag-logo"> Bransgore</p>
+                    </div>
+                    <div class="p-wrap">
+                        <p><img src="images/spain.png" alt="" class="flag-logo"> Cala Anguila</p>
+                    </div>
+                    <div class="p-wrap">
+                        <p><img src="images/italy.png" alt="" class="flag-logo"> Chiusanico</p>
+                    </div>
+                    <div class="p-wrap">
+                        <p><img src="images/greece.png" alt="" class="flag-logo"> Kavousion</p>
+                    </div>
+                    <div class="p-wrap">
+                        <p><img src="images/italy.png" alt="" class="flag-logo"> Pieve Di Ledro</p>
+                    </div>
+                    <div class="p-wrap">
+                        <p><img src="images/france.png" alt="" class="flag-logo"> Vierville-sur-Mer</p>
+                    </div>
+                    <button id="discover"><i class="fa fa-search" aria-hidden="true"></i> Discover</button>
+                </div>
+            </div>
+        </div>
+
+        <h2>Popular Student IDs</h2>
+        <div class="popular-id">
+            <a href="#" class="id lg-ft">ZUR000015MAV</a><a href="#" class="id lg-ft">ZUR000025MAV</a><a href="#"
+                class="id lg-ft">ZUR000016MAV</a><a href="#" class="id lg-ft">ZUR000026MAV</a><a href="#"
+                class="id lg-ft">ZUR000027MAV</a><a href="#" class="id lg-ft">ZUR000028MAV</a><a href="#"
+                class="id lg-ft">ZUR000615MAE</a><a href="#" class="id lg-ft">ZUR000785MAQ</a><a href="#"
+                class="id lg-ft">ZUR000005CAV</a><a href="#" class="id lg-ft">ZUR000010MBV</a><a href="#"
+                class="id">ZUR000015NAU</a><a href="#" class="id">ZUR000041FAV</a><a href="#"
+                class="id">ZUR000065MFV</a><a href="#" class="id">ZUR000495MRU</a><a href="#"
+                class="id">ZUR000019GTR</a><a href="#" class="id">ZUR000085MNO</a><a href="#"
+                class="id">ZUR000815HCV</a><a href="#" class="id">ZUR000015MCC</a><a href="#"
+                class="id">ZUR000083FCE</a><a href="#" class="id">ZUR000005MYT</a><a href="#"
+                class="id">ZUR000088BVT</a><a href="#" class="id">ZUR000080VCE</a><a href="#"
+                class="id">ZUR000017MBA</a><a href="#" class="id">ZUR000098CDE</a><a href="#"
+                class="id">ZUR000015VVE</a><a href="#" class="id">ZUR000865NAU</a><a href="#"
+                class="id">ZUR000095NNV</a><a href="#" class="id">ZUR000045GAE</a><a href="#"
+                class="id">ZUR000016KAV</a><a href="#" class="id">ZUR000068CCD</a><a href="#"
+                class="id">ZUR000495MRU</a><a href="#" class="id">ZUR000019GTR</a><a href="#"
+                class="id">ZUR000085MNO</a><a href="#" class="id">ZUR000815HCV</a><a href="#"
+                class="id">ZUR000015MCC</a><a href="#" class="id">ZUR000083FCE</a><a href="#"
+                class="id">ZUR000005MYT</a><a href="#" class="id">ZUR000088BVT</a><a href="#"
+                class="id">ZUR000080VCE</a><a href="#" class="id">ZUR000017MBA</a><a href="#"
+                class="id">ZUR000098CDE</a><a href="#" class="id">ZUR000015VVE</a><a href="#"
+                class="id">ZUR000865NAU</a><a href="#" class="id">ZUR000095NNV</a><a href="#"
+                class="id">ZUR000045GAE</a><a href="#" class="id">ZUR000016KAV</a><a href="#"
+                class="id">ZUR000068CCD</a><a href="#" class="id">ZUR000495MRU</a><a href="#"
+                class="id">ZUR000019GTR</a><a href="#" class="id">ZUR000085MNO</a><a href="#"
+                class="id">ZUR000815HCV</a><a href="#" class="id">ZUR000015MCC</a><a href="#"
+                class="id">ZUR000083FCE</a><a href="#" class="id">ZUR000005MYT</a><a href="#"
+                class="id">ZUR000088BVT</a><a href="#" class="id">ZUR000080VCE</a><a href="#"
+                class="id">ZUR000017MBA</a><a href="#" class="id">ZUR000098CDE</a><a href="#"
+                class="id">ZUR000015VVE</a><a href="#" class="id">ZUR000865NAU</a><a href="#"
+                class="id">ZUR000095NNV</a><a href="#" class="id">ZUR000045GAE</a><a href="#"
+                class="id">ZUR000016KAV</a><a href="#" class="id">ZUR000068CCD</a><a href="#"
+                class="id">ZUR000495MRU</a><a href="#" class="id">ZUR000019GTR</a>
+        </div>
+
+        <div class="third">
+            <p class="p-bold">Use Check My Student ID to find out all the key information for your local Student ID.</p>
+            <p class="">Find out typical <span class="p-bold">house prices, council tax bands and business rateable
+                    values.</span></p>
+            <p class="">See who represents you in <span class="p-bold">parliament and your local councils,</span> and
+                discover how Ofsted has rated
+                local <span class="p-bold">schools</span></p>
+            <div class="discover">
+                <p class="discover-head">Discover related topics
+                    <hr>
+                </p>
+                <ul>
+                    <li><a href="#">Fitzrovia</a> <i class="fa fa-angle-right angle-right" aria-hidden="true"></i></li>
+                    <hr>
+                    <li><a href="#">Shoreditch</a> <i class="fa fa-angle-right angle-right" aria-hidden="true"></i></li>
+                    <hr>
+                    <li><a href="#">Address Finder</a> <i class="fa fa-angle-right angle-right" aria-hidden="true"></i>
+                    </li>
+                    <hr>
+                    <li><a href="#">UK Address</a> <i class="fa fa-angle-right angle-right" aria-hidden="true"></i></li>
+                    <hr>
+                    <li id="disc-student"><a href="#">Student ID</a> <i class="fa fa-angle-right angle-right"
+                            aria-hidden="true"></i></li>
+                </ul>
+            </div>
+            <p class="">Check whether <span class="p-bold">superfast broadband</span> is available, and see how popular
+                it is.</p>
+            <p class="">See where your Student ID is on a <span class="p-bold">map</span.< /p>
+                    <p class="">Find the <span class="p-bold">nearest Student ID</span> to where you are right now.</p>
+                    <p class="p-bold">Read what other people have said about your Student ID, and leave your own
+                        comments for others
+                        to
+                        read.</p>
+        </div>
+
+        <footer>
+            <div class="top-footer">
+                <div class="footer-group">
+                    <p><a href="">Search</a></p>
+                    <p><a href="">Student ID by County</a></p>
+                    <p><a href="">Student ID by Introduction Date</a></p>
+                    <p><a href="">Student ID Near Me</a></p>
+                    <p><a href="">Student ID Lottery</a></p>
+                </div>
+                <div class="footer-group">
+                    <p><a href="">Student ID map by User Type</a></p>
+                    <p><a href="">Student ID map by Use Category</a></p>
+                    <p><a href="">Student ID map by Council Tax Band</a></p>
+                </div>
+                <div class="footer-group">
+                    <p><a href="">About this Website</a></p>
+                    <p><a href="">Disclaimer and Limitations</a></p>
+                    <p><a href="">Privacy Policy</a></p>
+                </div>
+            </div>
+
+            <div class="base-footer">
+                <p style="margin-bottom: 30px">Check My Student ID</p>
+                <p>CheckMyStudentID.UK is a <span style="color: #00A0E4;">Good Stuff</span> website.</p>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
